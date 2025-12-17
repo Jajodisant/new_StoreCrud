@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-main: #ffffff;
+    --color-secondary: #000000;
+    --color-tertiary: #F2F0F1;
+    --font-family-first: 'Lilita One';
+    --font-family-second: ;
+    --font-family-third: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+    background-color: var(--color-main);
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------- */
+/* page-header */
+/* ------------- */
+
+/* tab-on-the-page*/
+.tab-on-the-page {
+    display: flex;
+    max-height: 38px;
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+}
+
+.tab-on-the-page p {
+    margin: auto;
+    color: var(--color-main);
+    padding: 9px;
+    font-family: var(--font-family-third);
+
+}
+
+.tab-on-the-page svg {
+    max-width: 20px;
+    max-height: 20px;
+    position: absolute;
+    right: 9%;
+    margin-top: 9px;
+
+}
+
+.tab-on-the-page p span {
+    text-decoration: underline;
+}
+
+.tab-on-the-page p span:hover {
+    color: #808080;
+    cursor: pointer;
+}
+
+.tab-on-the-page svg:hover {
+    color: #808080;
+    cursor: pointer;
+}
+
+/* nav-page*/
+.nav-page {
+    max-width: 75%;
+    max-height: 48px;
+    display: flex;
+    margin: auto;
+    margin-right: 11%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    padding-top: 5px;
+    font-size: 33.45px;
+    font-family: 'Lilita One';
+}
+
+.buttons {
+    max-width: 328px;
+    max-height: 18px;
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+
+
+}
+
+.buttons ul {
+    display: flex;
+    font-family: var(--font-family-third);
+    font-size: 16px;
+    gap: 20px;
+}
+
+.buttons li:hover {
+    color: #808080;
+    cursor: pointer;
+}
+
+.buttons ul,
+li {
+    list-style: none;
+
+}
+
+.lupa {
+    position: relative;
+    width: 548px;
+    height: 48px;
+}
+
+.lupa .bi-search {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+
+.lupa input {
+    width: 548px;
+    height: 48px;
+    background-color: var(--color-tertiary);
+    border-radius: 24px;
+    border: none;
+    padding-left: 45px;
+}
+
+input::placeholder {
+    color: #00000066;
+    font-family: var(--font-family-third);
+    font-size: 16px;
+}
+
+.icons {
+    margin: auto;
+}
+
+.icons svg {
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+/* ------------- */
+/*main-page*/
+/* ------------- */
+
+/* page-introduction */
+.page-introduction {
+    height: 663px;
+    background-color: var(--color-tertiary);
+}
+
+.page-introduction img {
+    position: absolute;
+    right: 0;
+}
+
+.title-introduction {
+    width: 577px;
+    height: 173px;
+    position: absolute;
+    margin: auto;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.title-introduction h2 {
+    font-family: 'Lilita One';
+    font-weight: 400px;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.content-introduction {
+    width: 555px;
+    height: 33px;
+    position: absolute;
+    margin: auto;
+    margin-top: 17%;
+    margin-left: 105px;
+}
+
+.content-introduction p {
+    font-size: 16px;
+    text-align: justify;
+    font-family: var(--font-family-third);
+}
+
+.button-introduction {
+    position: absolute;
+    margin: auto;
+    margin-top: 21%;
+    margin-left: 105px;
+}
+
+.button-introduction button {
+    width: 210px;
+    height: 52px;
+    border-radius: 28px;
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    font-family: var(--font-family-third);
+    font-size: 16px;
+}
+
+.button-introduction:hover button:hover {
+    cursor: pointer;
+    color: var(--color-tertiary)
+}
+
+.more-info {
+    width: 597px;
+    height: 66px;
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 105px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.more-info h3 {
+    font-family: "Lilita One";
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.more-info p {
+    font-family: var(--font-family-third);
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.more-info .star {
+    width: 104;
+    height: 104;
+    top: -410px;
+    left: 1555px;
+    opacity: 1;
+}
+
+.more-info .star2 {
+    width: 56;
+    height: 56;
+    top: -200px;
+    right: -350px;
+    opacity: 1;
+}
+
+/* name-brands */
+.name-brands {
+    height: 122px;
+    top: 797px;
+    opacity: 1;
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    display: flex;
+    justify-content: space-between;
+}
+
+#Brands {
+    margin: auto;
+    font-size: 33.17px;
+    font-weight: bold;
+}
+
+/*section-clothing*/
+.section-clothing h3{
+    width: 326px;
+    height: 55px;
+    font-family:var(--font-family-first);
+    font-weight: 400px;
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+/* container-clothing */
+.container-clothing {
+    display: flex;
+    gap: 100px;
+    justify-content: center; 
+    padding-bottom: 100px;
+}
+.container-clothing .img .titles{
+    font-family: var(--font-family-first);
+    font-weight: 400px;        
+    font-size: 20px;
+    line-height: 100%;
+    padding-top: 30px;        
+}
+.container-clothing img {
+    padding-top: 16px;  
+}
+.container-clothing .img p{
+    font-family: var(--font-family-first);
+    font-weight: 400px;
+    font-size: 24px;
+}
+.container-clothing .img .descont{
+    font-family: var(--font-family-first);
+    color: gray;
+    font-weight: 400px;
+    font-size: 24px;
+    text-decoration: line-through;
+    opacity: 200%;
+}
+.container-clothing .img .porcent{
+    width: 58px;
+    height: 28px;
+    border-radius: 62px;
+    padding: 6px 14px 6px 14px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;    
+    font-size: 12px;
+    border-radius: 25px;
+    background-color: #FF33331A;
+    color: rgb(255, 0, 0);
+
+}
