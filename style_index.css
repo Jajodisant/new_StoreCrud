@@ -277,10 +277,10 @@ input::placeholder {
 }
 
 /*section-clothing*/
-.section-clothing h3{
+.section-clothing h3 {
     width: 326px;
     height: 55px;
-    font-family:var(--font-family-first);
+    font-family: var(--font-family-first);
     font-weight: 400px;
     font-size: 48px;
     text-align: center;
@@ -293,25 +293,29 @@ input::placeholder {
 .container-clothing {
     display: flex;
     gap: 100px;
-    justify-content: center; 
+    justify-content: center;
     padding-bottom: 100px;
 }
-.container-clothing .img .titles{
+
+.container-clothing .img .titles {
     font-family: var(--font-family-first);
-    font-weight: 400px;        
+    font-weight: 400px;
     font-size: 20px;
     line-height: 100%;
-    padding-top: 30px;        
+    padding-top: 30px;
 }
+
 .container-clothing img {
-    padding-top: 16px;  
+    padding-top: 16px;
 }
-.container-clothing .img p{
+
+.container-clothing .img p {
     font-family: var(--font-family-first);
     font-weight: 400px;
     font-size: 24px;
 }
-.container-clothing .img .descont{
+
+.container-clothing .img .descont {
     font-family: var(--font-family-first);
     color: gray;
     font-weight: 400px;
@@ -319,17 +323,76 @@ input::placeholder {
     text-decoration: line-through;
     opacity: 200%;
 }
-.container-clothing .img .porcent{
+
+.container-clothing .img .porcent {
     width: 58px;
     height: 28px;
     border-radius: 62px;
     padding: 6px 14px 6px 14px;
-    
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500px;    
+    font-weight: 500px;
     font-size: 12px;
     border-radius: 25px;
     background-color: #FF33331A;
     color: rgb(255, 0, 0);
+}
 
+/* view-all */
+.view-all {
+    width: 218px;
+    height: 52px;
+    top: 1548px;
+    background-color: var(--color-main);
+    border-radius: 62px;
+    border: 1px solid gray;
+    margin-left: 45%;
+}
+
+.view-all span {
+    font-family: 'Satoshi';
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 16px;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    border: 0.5px solid rgb(179, 176, 176);
+}
+
+/* dress-style */
+.dress-style {
+    width: 1239px;
+    height: 866px;
+    top: 2417px;
+    border-radius: 40px;
+    background-color: var(--color-tertiary);
+    display: grid;
+    grid-template-rows: 2;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.ono1 {
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    gap: 90px
+}
+
+.dos2 {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    gap: 90px
+}
+
+.dress-style h3 {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 45%;
 }
