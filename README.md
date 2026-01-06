@@ -48,10 +48,6 @@ Esta plantilla puede usarse como base para proyectos académicos, portafolio o i
 
 * Jainer Pabón
 
->>>> Identificación
-
-* cc 1081817026
-
 >>>> clan
 
 * Turing
